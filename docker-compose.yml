@@ -1,0 +1,6 @@
+services:
+  realestatelistingapi:
+    image: ${DOCKER_REGISTRY-}realestatelistingapi
+    build:
+      context: src
+      dockerfile: Dockerfile
